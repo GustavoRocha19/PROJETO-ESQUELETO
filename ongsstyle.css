@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cabecario {
+    height: 200px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(213, 240, 240);
+}
+
+.logotipo {
+    border: 1px solid red;
+    height: 200px;
+}
+
+.insta {
+    width: 50px ;
+    float: right;
+    margin-top: 75px;
+    margin-right: 40px;
+}
+
+.abas {
+    height: 90px;
+    border: 1px solid red;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(7, 233, 233);
+}
+
+.links {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.links:hover {
+   cursor: pointer;
+   text-decoration: underline;
+   background-color: rgb(6, 185, 185);
+}
